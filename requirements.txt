@@ -1,7 +1,8 @@
 numpy
 opencv-python
 Pillow
-torch>=1.7
-torchvision>=0.8.0
+-f https://download.pytorch.org/whl/cpu/torch-2.4.1%2Bcpu-cp39-cp39-win_amd64.whl
+torch>=1.7+cpu
+torchvision>=0.8.0+cpu
 tqdm
 huggingface-hub
