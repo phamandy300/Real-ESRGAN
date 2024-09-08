@@ -1,7 +1,8 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 numpy
 opencv-python
 Pillow
-https://download.pytorch.org/whl/cpu/torch-2.4.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-https://download.pytorch.org/whl/torchvision-0.17.0-cp39-cp39-linux_aarch64.whl
+torch==1.7+cpu
+torchvision==0.8.0+cpu
 tqdm
 huggingface-hub
