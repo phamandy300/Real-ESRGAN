@@ -1,7 +1,9 @@
+torch==1.7+cpu
+torchvision==0.8.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 numpy
 opencv-python
 Pillow
-torch==2.4.1+cpu
-torchvision==0.8.0+cpu
 tqdm
 huggingface-hub
