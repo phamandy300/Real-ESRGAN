@@ -3,6 +3,13 @@ import os
 import pkg_resources
 from setuptools import setup, find_packages
 
+requirements = []
+with open('requirements.txt') as f:
+    for line in f:
+        line = line.strip()
+        if line and not line.startswith(('--', '#')):
+            requirements.append(line)
+
 setup(
     name="RealESRGAN",
     py_modules=["RealESRGAN"],
